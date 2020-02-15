@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Updated Personal Portfolio of Brandon Rosser
+    </title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Neucha|Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper green accent-3">
+            <a href="index.html" class="brand-logo">
+                <i class="material-icons">home</i>Brandon Rosser</a>
+            <a href="index.html" data-target="mobile-demo" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li>
+                    <a href="https://www.linkedin.com/in/branross/" id="linkedin">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://github.com/Krunkbot3000" id="github">Github</a>
+                </li>
+                <li class="active">
+                    <a href="portfolio.html" id="portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="contact.html" id="contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <a href="index.html" id="contact">Home</a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/branross/" id="linkedin">LinkedIn</a>
+        </li>
+        <li>
+            <a href="https://github.com/Krunkbot3000" id="github">Github</a>
+        </li>
+        <li>
+            <a href="portfolio.html" id="portfolio">Portfolio</a>
+        </li>
+        <li>
+            <a href="contact.html" id="contact">Contact</a>
+        </li>
+    </ul>
+    <div class="container" id="content-body">
+        <div class="row heading green-text text-accent-3">
+            <div class="col-md">
+                <h1>Portfolio</h1>
+                <hr class="col-md">
+            </div>
+        </div>
+        <div class="row">
+            <div class="carousel">
+                <a class="carousel-item modal-trigger" href="#modal1">
+                    <p class="project-title">Psychic Game</p>
+                    <img src="assets/images/cleo.jpg">
+                </a>
+                <a class="carousel-item modal-trigger" href="#modal2">
+                    <p class="project-title">Crystal Collector</p>
+                    <img src="assets/images/crystal.jpg">
+                </a>
+                <a class="carousel-item modal-trigger" href="#modal3">
+                    <p class="project-title">Trivia Game</p>
+                    <img src="assets/images/quiz.jpg">
+                </a>
+                <a class="carousel-item modal-trigger" href="#modal4">
+                    <p class="project-title">Giftastic</p>
+                    <img src="assets/images/homer.png">
+                </a>
+                <a class="carousel-item modal-trigger" href="#modal5">
+                    <p class="project-title">Train Scheduler</p>
+                    <img src="assets/images/thomas.png">
+                </a>
+                <a class="carousel-item modal-trigger" href="#modal6">
+                    <p class="project-title">Bamazon</p>
+                    <img src="assets/images/bam.jpg">
+                </a>
+                <a class="carousel-item modal-trigger" href="#modal7">
+                    <p class="project-title">Frand Finder</p>
+                    <img src="assets/images/league.jpg">
+                </a>
+            </div>
+            <div class="row">
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <h4>Psychic Game</h4>
+                        <p>This game randomly picks a letter, and the user has to guess which letter the app chose.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://github.com/krunkbot3000/Psychic-Game" class="modal-close waves-effect waves-green btn-flat">Github</a>
+                        <a href="https://krunkbot3000.github.io/Psychic-Game/" class="modal-close waves-effect waves-green btn-flat">Website</a>
+                    </div>
+                </div>
+                <div id="modal2" class="modal">
+                    <div class="modal-content">
+                        <h4>Crystal Collector</h4>
+                        <p>This game is designed to allow the user to click on 4 crystals with the goal being to match
+                            a target number. The random number and all 4 of the crystals are assigned random number
+                            values to add variability to each game. Utilizes HTML, CSS, Javascript, Jquery, Bootstrap,
+                            and Google Fonts.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://github.com/krunkbot3000/unit-4-game" class="modal-close waves-effect waves-green btn-flat">Github</a>
+                        <a href="https://krunkbot3000.github.io/unit-4-game/" class="modal-close waves-effect waves-green btn-flat">Website</a>
+                    </div>
+                </div>
+                <div id="modal3" class="modal">
+                    <div class="modal-content">
+                        <h4>Totally Trivial Trivia</h4>
+                        <p>A Trivia game using JavaScript for the logic and jQuery to manipulate HTML. The answers will be graded and results returned to the user upon submission.
+                            Bootstrap was used to plan the structure and look of the page while jquery and javascript
+                            was used to add functionality to the game, timer, and answers. Utilizes HTML, CSS,
+                            Javascript, Jquery, Bootstrap, and Google Fonts.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://github.com/krunkbot3000/TriviaGame" class="modal-close waves-effect waves-green btn-flat">Github</a>
+                        <a href="https://krunkbot3000.github.io/TriviaGame/" class="modal-close waves-effect waves-green btn-flat">Website</a>
+                    </div>
+                </div>
+                <div id="modal4" class="modal">
+                    <div class="modal-content">
+                        <h4>Giftastic</h4>
+                        <p>This web page is designed to allow the user to lookup gifs of their favorite topics.
+                            The JSON is used to acces the Giphy API in order to pull gifs and display them on the web
+                            page. Bootstrap was used for much of the display formatting and jQuery was primarily used
+                            for the javascript functions.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://github.com/krunkbot3000/GifTastic" class="modal-close waves-effect waves-green btn-flat">Github</a>
+                        <a href="https://krunkbot3000.github.io/GifTastic/" class="modal-close waves-effect waves-green btn-flat">Website</a>
+                    </div>
+                </div>
+                <div id="modal5" class="modal">
+                    <div class="modal-content">
+                        <h4>Train Time</h4>
+                        <p>The Train Scheduler application will allow the user to input as many train routes into it in
+                            order to track the next available train for that route. The application uses firebase to
+                            store the data and recall it for the next load of the website. The website also uses moment
+                            to convert times into more user friendly formats. The app is best used for people who often
+                            take trains and need this advanced metric to know the next train stop.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://github.com/krunkbot3000/TrainTime" class="modal-close waves-effect waves-green btn-flat">Github</a>
+                        <a href="https://krunkbot3000.github.io/TrainTime/" class="modal-close waves-effect waves-green btn-flat">Website</a>
+                    </div>
+                </div>
+                <div id="modal6" class="modal">
+                    <div class="modal-content">
+                        <h4>Bamazon</h4>
+                        <p>Utilizes Node.js and MySQL in order to form an interactive inventory management system and
+                            order processing system similar to that of an Amazon style site. The app works through
+                            command line interface options with three seperate apps with different
+                            uses depending upon the user: customer, manager, and supervisor.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://github.com/krunkbot3000/Bamazon" class="modal-close waves-effect waves-green btn-flat">Github</a>
+                    </div>
+                </div>
+                <div id="modal7" class="modal">
+                    <div class="modal-content">
+                        <h4>FrandFinder</h4>
+                        <p>Compatibility based application The application will take in results from users' surveys
+                            then compare their results against all other users who have completed it. The application
+                            will then display the name and picture of the user with the best match overall. This
+                            application uses html, css, bootstrap, express.js, node,js, javascript. </p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="https://github.com/krunkbot3000/FrandFinder" class="modal-close waves-effect waves-green btn-flat">Github</a>
+                        <a href="https://github.com/krunkbot3000/FrandFinder" class="modal-close waves-effect waves-green btn-flat">Website</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer grey darken-2 white-text">
+        <div>
+            <span class="white-text">Copyright ©</span>
+        </div>
+    </footer>
+
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/js/materialize.min.js"></script>
+    <script language="javascript" type="text/javascript" src="assets/javascript/logic.js"></script>
+    <script language="javascript" type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+</body>
+
+</html>
